@@ -27,25 +27,13 @@ This is a RESTful web service that provides basic CRUD (Create, Read, Update, De
 
 ## API Endpoints
 
-### GET /api/v1/electric-vehicles
-
-Returns a list of all electric vehicles.
-
-### GET /api/v1/electric-vehicles/{id}
-
-Returns the electric vehicle with the specified ID.
-
-### POST /api/v1/electric-vehicles
-
-Creates a new electric vehicle.
-
-### PUT /api/v1/electric-vehicles/{id}
-
-Updates the electric vehicle with the specified ID.
-
-### DELETE /api/v1/electric-vehicles/{id}
-
-Deletes the electric vehicle with the specified ID.
+| Method | Endpoint | Description |
+| :---         |     :---:      |          ---: |
+| GET   | `/api/v1/electric-vehicles`    | Get all electric vehicles    |
+| GET     | `/api/v1/electric-vehicles/{id}`     | Get a single electric vehicle by ID     |
+| POST     | `/api/v1/electric-vehicles`      | Create a new electric vehicle      |
+| PUT     | `/api/v1/electric-vehicles/{id}`       | Update an existing electric vehicle by ID     |
+| DELETE     | `/api/v1/electric-vehicles/{id}`       | Delete an existing electric vehicle by ID      |
 
 ## Technologies Used
 
